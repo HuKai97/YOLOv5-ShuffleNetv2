@@ -1,4 +1,4 @@
-# 在蜂巢检测（私人）数据集上进行YOLOv5轻量化改进
+# 在蜂巢检测（私人）数据集上进行YOLOv5-v5.0轻量化改进
 
 代码是在这个仓库[ultralytics/yolov5](https://github.com/ultralytics/yolov5). 基础上进行添加、修改的
 
