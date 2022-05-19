@@ -230,6 +230,9 @@ class Detect(nn.Module):
                 if self.inplace:
                     # 默认执行 不使用AWS Inferentia
                     # 这里的公式和yolov3、v4中使用的不一样 是yolov5作者自己用的 效果更好
+                    # 网络回归得到了边界框回归参数，现在预测模型下要映射回原图，wh可以用anchor框的wh进行映射，
+                    # xy映射单靠边界框回归参数只能得到相对每个grid内的偏移量，再用每个grid内的偏移量加上每个grid的左上角坐标（self.grid[i]）
+                    # 就得到了最终的预测框相对原图左上角的实际坐标xywh，再后面nms...
                     y[..., 0:2] = (y[..., 0:2] * 2. - 0.5 + self.grid[i]) * self.stride[i]  # xy
                     # y[..., 2:4] = torch.exp(y[..., 2:4]) * self.anchor_wh     # wh yolo method
                     y[..., 2:4] = (y[..., 2:4] * 2) ** 2 * self.anchor_grid[i]  # wh power method
