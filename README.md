@@ -2,6 +2,8 @@
 
 代码是在这个仓库[ultralytics/yolov5-5.0](https://github.com/ultralytics/yolov5). 基础上进行添加、修改的
 
+对YOLOv5原理不了解的，可以看下我的YOLOv5源码注释:[HuKai97/yolov5-5.x-annotations](https://github.com/HuKai97/yolov5-5.x-annotations).和我写的YOLOv5源码讲解：[【YOLOV5-5.x 源码讲解】整体项目文件导航](https://blog.csdn.net/qq_38253797/article/details/119043919).
+
 参考仓库:[ppogg/YOLOv5-Lite](https://github.com/ppogg/YOLOv5-Lite).
 
 
