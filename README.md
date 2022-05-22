@@ -1,6 +1,6 @@
 # 在蜂巢检测（私人）数据集上进行YOLOv5轻量化改进
 
-这个项目主要灵感来源于[ppogg/YOLOv5-Lite](https://github.com/ppogg/YOLOv5-Lite)，非常厉害的轻量化模型，感谢大佬的开源工作。
+这个项目主要改进点来源于[ppogg/YOLOv5-Lite](https://github.com/ppogg/YOLOv5-Lite)，非常厉害的轻量化模型，感谢大佬的开源工作。
 
 本项目适合用在一类/几类，且数据并不复杂度的数据集上
 
@@ -55,5 +55,5 @@ mAP@0.5~0.95  | 0.885  |  0.84
 
 
 ## Reference
-[ultralytics/yolov5](https://github.com/ultralytics/yolov5)
+[ultralytics/yolov5](https://github.com/ultralytics/yolov5)   
 [ppogg/YOLOv5-Lite](https://github.com/ppogg/YOLOv5-Lite).
