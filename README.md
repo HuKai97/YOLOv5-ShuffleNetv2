@@ -33,12 +33,6 @@ G4. Element-Wise的操作要尽量少，如：ReLU、ADD、逐点卷积等；
 ## 四、代码使用
 同YOLOv5
 
-预训练权重文件(领取密码：hk97)   
-1. [YOLOv5s(COCO)](https://pan.baidu.com/s/1K1AVoYj-rLigQ0XgPz-wFg).   
-2. [YOLOv5s-hive](https://pan.baidu.com/s/1Tz5lLTbyQcPfifR4VKxctw).    
-3. [YOLOv5s-shuffleNetv2(COCO)](https://pan.baidu.com/s/14r1FRiiJ5IXXODin3mpdkg).   
-4. [YOLOv5s-shuffleNetv2-hive](https://pan.baidu.com/s/1uNyiBEUrv5a-7GtVvYpmTw).    
-
 ## 五、训练效果
 模型 |YOLOv5s  | YOLOv5s-ShuffleNetV2
 -------- |-------- | -----
